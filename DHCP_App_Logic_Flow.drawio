@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="DBVy_uAtY3ji2QvGQoG9">
+    <mxGraphModel dx="2634" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Windows&lt;div&gt;Server&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Running Powershell&lt;/div&gt;&lt;div&gt;scripts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="100" x="-1020" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" value="JSON Files&lt;div&gt;from Powershell output&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="-684" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" value="JSON Files&lt;div&gt;from WebUI&lt;/div&gt;&lt;div&gt;output&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="-684" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-5" edge="1" parent="1" source="_eZOxtDnR6iAXCQw3O_v-4" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="_eZOxtDnR6iAXCQw3O_v-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-659" y="390" as="sourcePoint" />
+            <mxPoint x="-829" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-6" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Process checks for staged changes and applies them" vertex="1">
+          <mxGeometry height="60" width="120" x="-859" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-8" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Process generates data files to populate WebUI" vertex="1">
+          <mxGeometry height="60" width="120" x="-859" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-10" edge="1" parent="1" source="_eZOxtDnR6iAXCQw3O_v-8" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_eZOxtDnR6iAXCQw3O_v-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-659" y="320" as="sourcePoint" />
+            <mxPoint x="-609" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Linux&lt;div&gt;Server&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Runs Nginx, HTML, CSS, Javascript, and Bootstrap&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="100" x="-320" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-13" edge="1" parent="1" source="_eZOxtDnR6iAXCQw3O_v-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;" target="_eZOxtDnR6iAXCQw3O_v-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-933" y="200" />
+            </Array>
+            <mxPoint x="-663" y="370" as="sourcePoint" />
+            <mxPoint x="-613" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-14" edge="1" parent="1" source="_eZOxtDnR6iAXCQw3O_v-6" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;curveGeometry=1;startSize=6;" target="_eZOxtDnR6iAXCQw3O_v-1" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0316" as="geometry">
+            <Array as="points">
+              <mxPoint x="-933" y="450" />
+            </Array>
+            <mxPoint x="-663" y="370" as="sourcePoint" />
+            <mxPoint x="-613" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-16" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Process imports JSON and populates WebUI" vertex="1">
+          <mxGeometry height="60" width="120" x="-509" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-17" edge="1" parent="1" source="_eZOxtDnR6iAXCQw3O_v-2" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.93;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_eZOxtDnR6iAXCQw3O_v-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-430" y="270" as="sourcePoint" />
+            <mxPoint x="-380" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-18" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Process exports staged changes as JSON&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="-509" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-19" edge="1" parent="1" source="_eZOxtDnR6iAXCQw3O_v-18" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.93;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="_eZOxtDnR6iAXCQw3O_v-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-430" y="390" as="sourcePoint" />
+            <mxPoint x="-380" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-20" edge="1" parent="1" source="_eZOxtDnR6iAXCQw3O_v-12" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.586;exitY=1.019;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;" target="_eZOxtDnR6iAXCQw3O_v-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-310" y="450" />
+            </Array>
+            <mxPoint x="-560" y="390" as="sourcePoint" />
+            <mxPoint x="-510" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_eZOxtDnR6iAXCQw3O_v-21" edge="1" parent="1" source="_eZOxtDnR6iAXCQw3O_v-12" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;curveGeometry=1;startArrow=classic;startFill=1;endFill=0;" target="_eZOxtDnR6iAXCQw3O_v-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-310" y="200" />
+            </Array>
+            <mxPoint x="-560" y="390" as="sourcePoint" />
+            <mxPoint x="-510" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
