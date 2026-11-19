@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="bdvIWEzbkqbecVCgtt0v">
-    <mxGraphModel dx="1094" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,15 +158,12 @@
           <mxGeometry height="40" width="47.33" x="750" y="280" as="geometry" />
         </mxCell>
         <mxCell id="NHNcjIwkla5OsAwaRBPq-1" parent="1" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=light-dark(#A153A0,#A9C4EB);strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.firewall;labelPerimeter=1;" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;AA02-NFW100&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;Azure East Firewall&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="45" width="50" x="730" y="517.5" as="geometry" />
+          <mxGeometry height="45" width="50" x="747.3299999999999" y="620.76" as="geometry" />
         </mxCell>
-        <mxCell id="NHNcjIwkla5OsAwaRBPq-2" edge="1" parent="1" source="ilpxtj3fs5nHpFSrXb-U-38" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.498;exitDx=0;exitDy=0;exitPerimeter=0;" target="NHNcjIwkla5OsAwaRBPq-1" value="">
+        <mxCell id="NHNcjIwkla5OsAwaRBPq-3" edge="1" parent="1" source="ilpxtj3fs5nHpFSrXb-U-38" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=1;exitY=0.498;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="NHNcjIwkla5OsAwaRBPq-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="755" y="643.21" />
-            </Array>
-            <mxPoint x="600" y="640" as="sourcePoint" />
-            <mxPoint x="650" y="590" as="targetPoint" />
+            <mxPoint x="490" y="500" as="sourcePoint" />
+            <mxPoint x="540" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
